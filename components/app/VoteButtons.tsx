@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { Id } from "@/convex/_generated/dataModel";
 
 interface VoteButtonsProps {
@@ -41,6 +41,11 @@ export function VoteButtons({ loadoutId, netVotes }: VoteButtonsProps) {
   );
   const [optimisticDelta, setOptimisticDelta] = useState(0);
   const [loading, setLoading] = useState(false);
+
+  // Reset optimistic delta when server data arrives (netVotes prop changes)
+  useEffect(() => {
+    setOptimisticDelta(0);
+  }, [netVotes]);
 
   const vote = useCallback(
     async (direction: "up" | "down") => {

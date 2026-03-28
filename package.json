@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "vitest"
+    "test": "vitest",
+    "seed": "npx tsx scripts/seed.ts",
+    "seed:loadouts": "npx tsx scripts/seedLoadouts.ts"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

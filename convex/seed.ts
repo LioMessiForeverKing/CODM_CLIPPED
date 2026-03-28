@@ -50,6 +50,61 @@ export const clearWeapons = mutation({
   },
 });
 
+export const seedLoadout = mutation({
+  args: {
+    weaponSlug: v.string(),
+    weaponName: v.string(),
+    category: v.string(),
+    attachments: v.record(v.string(), v.string()),
+    playstyle: v.string(),
+    season: v.string(),
+    description: v.string(),
+    submittedBy: v.string(),
+    upvotes: v.number(),
+    downvotes: v.number(),
+  },
+  handler: async (ctx, args) => {
+    // Look up weapon by slug
+    const weapon = await ctx.db
+      .query("weapons")
+      .withIndex("by_slug", (q) => q.eq("slug", args.weaponSlug))
+      .unique();
+
+    if (!weapon) {
+      return { action: "skipped", reason: `weapon not found: ${args.weaponSlug}` };
+    }
+
+    const netVotes = args.upvotes - args.downvotes;
+
+    await ctx.db.insert("loadouts", {
+      weaponId: weapon._id,
+      weaponName: args.weaponName,
+      category: args.category,
+      attachments: args.attachments,
+      playstyle: args.playstyle,
+      season: args.season,
+      description: args.description,
+      submittedBy: args.submittedBy,
+      upvotes: args.upvotes,
+      downvotes: args.downvotes,
+      netVotes,
+    });
+
+    return { action: "inserted", weapon: args.weaponName, by: args.submittedBy };
+  },
+});
+
+export const clearLoadouts = mutation({
+  args: {},
+  handler: async (ctx) => {
+    const loadouts = await ctx.db.query("loadouts").collect();
+    for (const l of loadouts) {
+      await ctx.db.delete(l._id);
+    }
+    return { deleted: loadouts.length };
+  },
+});
+
 export const seedSeason = mutation({
   args: {
     name: v.string(),
