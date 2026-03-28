@@ -1,0 +1,2004 @@
+[
+  {
+    "name": "AK-47",
+    "slug": "ak-47",
+    "category": "assault_rifle",
+    "stats": {
+      "s14-2025": {
+        "damage": 70,
+        "range": 55,
+        "fireRate": 60,
+        "accuracy": 52,
+        "mobility": 65,
+        "control": 48
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Compensator", "Monolithic Suppressor", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight", "Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["40 Round Extended Mag", "50 Round Extended Mag", "5.45 Caliber Ammo"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Operator Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "M16",
+    "slug": "m16",
+    "category": "assault_rifle",
+    "stats": {
+      "s14-2025": {
+        "damage": 68,
+        "range": 62,
+        "fireRate": 55,
+        "accuracy": 65,
+        "mobility": 62,
+        "control": 58
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Compensator", "Monolithic Suppressor", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight", "Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["40 Round Extended Mag", "48 Round Extended Mag", "Stopping Power Reload"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Operator Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "AK117",
+    "slug": "ak117",
+    "category": "assault_rifle",
+    "stats": {
+      "s14-2025": {
+        "damage": 55,
+        "range": 50,
+        "fireRate": 75,
+        "accuracy": 62,
+        "mobility": 70,
+        "control": 55
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Compensator", "Monolithic Suppressor", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight", "Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["40 Round Extended Mag", "48 Round Extended Mag", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Operator Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "ASM10",
+    "slug": "asm10",
+    "category": "assault_rifle",
+    "stats": {
+      "s14-2025": {
+        "damage": 72,
+        "range": 58,
+        "fireRate": 52,
+        "accuracy": 55,
+        "mobility": 58,
+        "control": 45
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Compensator", "Monolithic Suppressor", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Marksman", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight", "Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["30 Round Extended Mag", "38 Round Extended Mag", "Stopping Power Reload"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Operator Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "LK24",
+    "slug": "lk24",
+    "category": "assault_rifle",
+    "stats": {
+      "s14-2025": {
+        "damage": 56,
+        "range": 52,
+        "fireRate": 72,
+        "accuracy": 68,
+        "mobility": 68,
+        "control": 62
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Compensator", "Monolithic Suppressor", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight", "Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["40 Round Extended Mag", "50 Round Extended Mag", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Operator Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "BK57",
+    "slug": "bk57",
+    "category": "assault_rifle",
+    "stats": {
+      "s14-2025": {
+        "damage": 54,
+        "range": 55,
+        "fireRate": 70,
+        "accuracy": 64,
+        "mobility": 66,
+        "control": 60
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Compensator", "Monolithic Suppressor", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight", "Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["40 Round Extended Mag", "48 Round Extended Mag", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Operator Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "ICR-1",
+    "slug": "icr-1",
+    "category": "assault_rifle",
+    "stats": {
+      "s14-2025": {
+        "damage": 52,
+        "range": 54,
+        "fireRate": 68,
+        "accuracy": 74,
+        "mobility": 66,
+        "control": 70
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Compensator", "Monolithic Suppressor", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight", "Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock", "MIP Strike Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["40 Round Extended Mag", "50 Round Extended Mag", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Operator Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "Man-O-War",
+    "slug": "man-o-war",
+    "category": "assault_rifle",
+    "stats": {
+      "s14-2025": {
+        "damage": 75,
+        "range": 60,
+        "fireRate": 48,
+        "accuracy": 58,
+        "mobility": 55,
+        "control": 46
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Compensator", "Monolithic Suppressor", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Marksman", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight", "Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["30 Round Extended Mag", "38 Round Extended Mag", "Stopping Power Reload"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Operator Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "HBRa3",
+    "slug": "hbra3",
+    "category": "assault_rifle",
+    "stats": {
+      "s14-2025": {
+        "damage": 58,
+        "range": 53,
+        "fireRate": 70,
+        "accuracy": 66,
+        "mobility": 68,
+        "control": 60
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Compensator", "Monolithic Suppressor", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight", "Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock", "RTC Steady Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["40 Round Extended Mag", "48 Round Extended Mag", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Operator Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "Type 25",
+    "slug": "type-25",
+    "category": "assault_rifle",
+    "stats": {
+      "s14-2025": {
+        "damage": 50,
+        "range": 48,
+        "fireRate": 78,
+        "accuracy": 55,
+        "mobility": 72,
+        "control": 50
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Compensator", "Monolithic Suppressor", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight", "Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["42 Round Extended Mag", "50 Round Extended Mag", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Operator Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "KN-44",
+    "slug": "kn-44",
+    "category": "assault_rifle",
+    "stats": {
+      "s14-2025": {
+        "damage": 62,
+        "range": 55,
+        "fireRate": 65,
+        "accuracy": 60,
+        "mobility": 66,
+        "control": 54
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Compensator", "Monolithic Suppressor", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight", "Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["40 Round Extended Mag", "48 Round Extended Mag", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Operator Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "DR-H",
+    "slug": "dr-h",
+    "category": "assault_rifle",
+    "stats": {
+      "s14-2025": {
+        "damage": 70,
+        "range": 56,
+        "fireRate": 55,
+        "accuracy": 56,
+        "mobility": 62,
+        "control": 48
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Compensator", "Monolithic Suppressor", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Marksman", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight", "Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["30 Round OTM Mag", "25 Round OTM Mag", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Operator Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "Peacekeeper MK2",
+    "slug": "peacekeeper-mk2",
+    "category": "assault_rifle",
+    "stats": {
+      "s14-2025": {
+        "damage": 55,
+        "range": 50,
+        "fireRate": 74,
+        "accuracy": 64,
+        "mobility": 72,
+        "control": 56
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Agency Suppressor", "Monolithic Suppressor", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["Task Force Barrel", "Reinforced Heavy Barrel", "MIP Extended Light Barrel"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight", "Tactical Scope"],
+      "stock": ["No Stock", "Agile Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Airborne Elastic Wrap", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["40 Round Fast Mag", "48 Round Extended Mag", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Operator Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "FR .556",
+    "slug": "fr-556",
+    "category": "assault_rifle",
+    "stats": {
+      "s14-2025": {
+        "damage": 65,
+        "range": 58,
+        "fireRate": 52,
+        "accuracy": 62,
+        "mobility": 60,
+        "control": 55
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Compensator", "Monolithic Suppressor", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight", "Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["30 Round Extended Mag", "38 Round Extended Mag", "Stopping Power Reload"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Operator Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "CR-56 AMAX",
+    "slug": "cr-56-amax",
+    "category": "assault_rifle",
+    "stats": {
+      "s14-2025": {
+        "damage": 68,
+        "range": 56,
+        "fireRate": 58,
+        "accuracy": 58,
+        "mobility": 62,
+        "control": 50
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Compensator", "Monolithic Suppressor", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight", "Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["M67 Ammo", "40 Round Extended Mag", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Operator Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "AS VAL",
+    "slug": "as-val",
+    "category": "assault_rifle",
+    "stats": {
+      "s14-2025": {
+        "damage": 60,
+        "range": 45,
+        "fireRate": 80,
+        "accuracy": 52,
+        "mobility": 72,
+        "control": 46
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Compensator", "MIP Light Flash Guard", "OWC Marksman"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight", "Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["30 Round Extended Mag", "Spp 10 Round Reload", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Operator Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "Oden",
+    "slug": "oden",
+    "category": "assault_rifle",
+    "stats": {
+      "s14-2025": {
+        "damage": 77,
+        "range": 64,
+        "fireRate": 45,
+        "accuracy": 50,
+        "mobility": 50,
+        "control": 42
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Colossus Suppressor", "Monolithic Suppressor", "OWC Compensator", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "Oden Factory 810mm"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Tactical Scope", "3x Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["25 Round Extended Mag", "30 Round Extended Mag", "Stopping Power Reload"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Operator Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "M13",
+    "slug": "m13",
+    "category": "assault_rifle",
+    "stats": {
+      "s14-2025": {
+        "damage": 56,
+        "range": 52,
+        "fireRate": 78,
+        "accuracy": 68,
+        "mobility": 70,
+        "control": 62
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "Tactical Suppressor", "OWC Compensator", "MIP Light Flash Guard"],
+      "barrel": ["RTC Marksman", "Tempus Marksman", "MIP Extended Light Barrel"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight", "Tactical Scope"],
+      "stock": ["No Stock", "Skeleton Stock", "RTC Steady Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": [".300 Blackout Ammo", "50 Round Extended Mag", "60 Round Extended Mag"],
+      "underbarrel": ["Ranger Foregrip", "Operator Foregrip", "Merc Foregrip", "Strike Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "Kilo 141",
+    "slug": "kilo-141",
+    "category": "assault_rifle",
+    "stats": {
+      "s14-2025": {
+        "damage": 58,
+        "range": 60,
+        "fireRate": 72,
+        "accuracy": 72,
+        "mobility": 66,
+        "control": 65
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "Tactical Suppressor", "OWC Marksman"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Tactical Scope", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock", "RTC Steady Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["40 Round Extended Mag", "50 Round Extended Mag", "OWC Stopping Power Reload"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Operator Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "Swordfish",
+    "slug": "swordfish",
+    "category": "assault_rifle",
+    "stats": {
+      "s14-2025": {
+        "damage": 66,
+        "range": 62,
+        "fireRate": 50,
+        "accuracy": 70,
+        "mobility": 58,
+        "control": 60
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Compensator", "Monolithic Suppressor", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight", "Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["Halberd Mag", "40 Round Extended Mag", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Operator Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "Kilo Bolt-Action",
+    "slug": "kilo-bolt-action",
+    "category": "marksman",
+    "stats": {
+      "s14-2025": {
+        "damage": 85,
+        "range": 74,
+        "fireRate": 35,
+        "accuracy": 72,
+        "mobility": 52,
+        "control": 48
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Light Suppressor", "Monolithic Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Marksman", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Red Dot Sight 1", "Tactical Scope", "3x Tactical Scope", "6x Tactical Scope 3"],
+      "stock": ["OWC Skeleton Stock", "YKM Combat Stock", "MIP Strike Stock"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["8 Round Extended Mag", "Stopping Power Reload", "Fast Reload"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "M4",
+    "slug": "m4",
+    "category": "assault_rifle",
+    "stats": {
+      "s14-2025": {
+        "damage": 50,
+        "range": 52,
+        "fireRate": 72,
+        "accuracy": 70,
+        "mobility": 72,
+        "control": 68
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Compensator", "Monolithic Suppressor", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight", "Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["40 Round Extended Mag", "50 Round Extended Mag", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Operator Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "Holger 556",
+    "slug": "holger-556",
+    "category": "assault_rifle",
+    "stats": {
+      "s14-2025": {
+        "damage": 57,
+        "range": 56,
+        "fireRate": 70,
+        "accuracy": 66,
+        "mobility": 64,
+        "control": 60
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Compensator", "Monolithic Suppressor", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight", "Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["40 Round Extended Mag", "50 Round Extended Mag", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Operator Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "RUS-79U",
+    "slug": "rus-79u",
+    "category": "smg",
+    "stats": {
+      "s14-2025": {
+        "damage": 48,
+        "range": 35,
+        "fireRate": 78,
+        "accuracy": 58,
+        "mobility": 82,
+        "control": 52
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["38 Round Extended Mag", "50 Round Extended Mag", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Operator Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "MSMC",
+    "slug": "msmc",
+    "category": "smg",
+    "stats": {
+      "s14-2025": {
+        "damage": 52,
+        "range": 28,
+        "fireRate": 85,
+        "accuracy": 45,
+        "mobility": 85,
+        "control": 38
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["30 Round Extended Mag", "36 Round Extended Mag", "Fast Mag"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "Chicom",
+    "slug": "chicom",
+    "category": "smg",
+    "stats": {
+      "s14-2025": {
+        "damage": 44,
+        "range": 32,
+        "fireRate": 80,
+        "accuracy": 55,
+        "mobility": 80,
+        "control": 50
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["36 Round Extended Mag", "48 Round Extended Mag", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "PDW-57",
+    "slug": "pdw-57",
+    "category": "smg",
+    "stats": {
+      "s14-2025": {
+        "damage": 45,
+        "range": 34,
+        "fireRate": 76,
+        "accuracy": 52,
+        "mobility": 78,
+        "control": 48
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["64 Round Extended Mag", "75 Round Extended Mag", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "Pharo",
+    "slug": "pharo",
+    "category": "smg",
+    "stats": {
+      "s14-2025": {
+        "damage": 50,
+        "range": 30,
+        "fireRate": 82,
+        "accuracy": 50,
+        "mobility": 82,
+        "control": 44
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["36 Round Extended Mag", "Fast Mag", "Stopping Power Reload"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "Razorback",
+    "slug": "razorback",
+    "category": "smg",
+    "stats": {
+      "s14-2025": {
+        "damage": 46,
+        "range": 38,
+        "fireRate": 75,
+        "accuracy": 62,
+        "mobility": 78,
+        "control": 58
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["36 Round Extended Mag", "42 Round Extended Mag", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "Cordite",
+    "slug": "cordite",
+    "category": "smg",
+    "stats": {
+      "s14-2025": {
+        "damage": 46,
+        "range": 32,
+        "fireRate": 80,
+        "accuracy": 55,
+        "mobility": 80,
+        "control": 50
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["64 Round Extended Mag", "80 Round Belt Mag", "Fast Mag"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "QQ9",
+    "slug": "qq9",
+    "category": "smg",
+    "stats": {
+      "s14-2025": {
+        "damage": 54,
+        "range": 28,
+        "fireRate": 85,
+        "accuracy": 50,
+        "mobility": 82,
+        "control": 44
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "MIP Light Flash Guard", "Tactical Suppressor"],
+      "barrel": ["MIP Extended Light Barrel", "OWC Ranger", "RTC Recon Barrel"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight", "Tactical Scope"],
+      "stock": ["No Stock", "OWC Skeleton Stock", "MIP Strike Stock", "YKM Combat Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["45 Round Extended Mag", "10mm 30 Round Reload", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Merc Foregrip", "Ranger Foregrip", "Operator Foregrip"]
+    }
+  },
+  {
+    "name": "HG 40",
+    "slug": "hg-40",
+    "category": "smg",
+    "stats": {
+      "s14-2025": {
+        "damage": 42,
+        "range": 36,
+        "fireRate": 76,
+        "accuracy": 60,
+        "mobility": 78,
+        "control": 56
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["36 Round Extended Mag", "44 Round Extended Mag", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "AGR 556",
+    "slug": "agr-556",
+    "category": "smg",
+    "stats": {
+      "s14-2025": {
+        "damage": 46,
+        "range": 36,
+        "fireRate": 78,
+        "accuracy": 60,
+        "mobility": 76,
+        "control": 54
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["60 Round Extended Mag", "5.56 NATO 60 Round", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "Fennec",
+    "slug": "fennec",
+    "category": "smg",
+    "stats": {
+      "s14-2025": {
+        "damage": 46,
+        "range": 25,
+        "fireRate": 92,
+        "accuracy": 45,
+        "mobility": 86,
+        "control": 36
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "MIP Light Flash Guard"],
+      "barrel": ["MIP Extended Light Barrel", "MIP Light Barrel (Short)", "OWC Ranger"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "YKM Light Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["40 Round Extended Mag", "Akimbo", "Fast Mag"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "GKS",
+    "slug": "gks",
+    "category": "smg",
+    "stats": {
+      "s14-2025": {
+        "damage": 44,
+        "range": 38,
+        "fireRate": 75,
+        "accuracy": 65,
+        "mobility": 76,
+        "control": 62
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["36 Round Extended Mag", "44 Round Extended Mag", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "QXR",
+    "slug": "qxr",
+    "category": "smg",
+    "stats": {
+      "s14-2025": {
+        "damage": 48,
+        "range": 30,
+        "fireRate": 86,
+        "accuracy": 52,
+        "mobility": 84,
+        "control": 42
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "OWC Skeleton Stock", "MIP Strike Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["Enhanced Bolt", "40 Round Extended Mag", "Fast Mag"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "PP19 Bizon",
+    "slug": "pp19-bizon",
+    "category": "smg",
+    "stats": {
+      "s14-2025": {
+        "damage": 42,
+        "range": 33,
+        "fireRate": 78,
+        "accuracy": 56,
+        "mobility": 80,
+        "control": 55
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["84 Round Extended Mag", "Large Caliber Ammo", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "MX9",
+    "slug": "mx9",
+    "category": "smg",
+    "stats": {
+      "s14-2025": {
+        "damage": 50,
+        "range": 26,
+        "fireRate": 88,
+        "accuracy": 48,
+        "mobility": 86,
+        "control": 40
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Agency Suppressor", "Monolithic Suppressor", "OWC Compensator", "MIP Light Flash Guard"],
+      "barrel": ["Task Force Barrel", "Reinforced Heavy Barrel", "MIP Extended Light Barrel"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "Agile Stock", "Wire Stock"],
+      "rear_grip": ["Airborne Elastic Wrap", "Stippled Grip Tape", "SASR Jungle Grip"],
+      "ammunition": ["48 Round Mag", "Large Caliber Ammo", "Fast Mag"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "CBR4",
+    "slug": "cbr4",
+    "category": "smg",
+    "stats": {
+      "s14-2025": {
+        "damage": 48,
+        "range": 35,
+        "fireRate": 82,
+        "accuracy": 58,
+        "mobility": 85,
+        "control": 52
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "Agency Suppressor", "OWC Compensator", "MIP Light Flash Guard"],
+      "barrel": ["MIP Extended Light Barrel", "OWC Ranger", "RTC Recon Barrel"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "MIP Strike Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["Fast Extended Mag", "45 Round Extended Mag", "Double Stack Mag"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "PPSh-41",
+    "slug": "ppsh-41",
+    "category": "smg",
+    "stats": {
+      "s14-2025": {
+        "damage": 44,
+        "range": 30,
+        "fireRate": 90,
+        "accuracy": 46,
+        "mobility": 84,
+        "control": 40
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Agency Suppressor", "Monolithic Suppressor", "OWC Compensator", "MIP Light Flash Guard"],
+      "barrel": ["Task Force Barrel", "Reinforced Heavy Barrel", "MIP Extended Light Barrel"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "Agile Stock", "KGB Skeletal Stock"],
+      "rear_grip": ["Airborne Elastic Wrap", "Stippled Grip Tape", "Serpent Wrap"],
+      "ammunition": ["55 Round Drum Mag", "71 Round Drum Mag", "Fast Mag"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "MAC-10",
+    "slug": "mac-10",
+    "category": "smg",
+    "stats": {
+      "s14-2025": {
+        "damage": 50,
+        "range": 30,
+        "fireRate": 90,
+        "accuracy": 42,
+        "mobility": 88,
+        "control": 38
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Agency Suppressor", "Monolithic Suppressor", "OWC Compensator", "MIP Light Flash Guard"],
+      "barrel": ["Task Force Barrel", "Reinforced Heavy Barrel", "MIP Extended Light Barrel"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "Raider Stock", "Wire Stock", "SAS Combat Stock"],
+      "rear_grip": ["Airborne Elastic Wrap", "Stippled Grip Tape", "SASR Jungle Grip"],
+      "ammunition": ["43 Round Speed Mag", "53 Round Drum Mag", "Fast Mag"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "Switchblade X9",
+    "slug": "switchblade-x9",
+    "category": "smg",
+    "stats": {
+      "s14-2025": {
+        "damage": 47,
+        "range": 28,
+        "fireRate": 88,
+        "accuracy": 50,
+        "mobility": 87,
+        "control": 42
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Agency Suppressor", "Monolithic Suppressor", "OWC Compensator", "MIP Light Flash Guard"],
+      "barrel": ["Task Force Barrel", "Reinforced Heavy Barrel", "MIP Extended Light Barrel"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "Agile Stock", "Wire Stock"],
+      "rear_grip": ["Airborne Elastic Wrap", "Stippled Grip Tape", "SASR Jungle Grip"],
+      "ammunition": ["40 Round Speed Mag", "50 Round Drum Mag", "Fast Mag"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "Lachmann Sub",
+    "slug": "lachmann-sub",
+    "category": "smg",
+    "stats": {
+      "s14-2025": {
+        "damage": 48,
+        "range": 34,
+        "fireRate": 80,
+        "accuracy": 56,
+        "mobility": 82,
+        "control": 50
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["40 Round Extended Mag", "50 Round Extended Mag", "Fast Mag"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Merc Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "DL Q33",
+    "slug": "dl-q33",
+    "category": "sniper",
+    "stats": {
+      "s14-2025": {
+        "damage": 95,
+        "range": 90,
+        "fireRate": 20,
+        "accuracy": 82,
+        "mobility": 35,
+        "control": 40
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Light Suppressor", "MIP Light Flash Guard", "Monolithic Suppressor"],
+      "barrel": ["OWC Marksman", "MIP Light Barrel (Short)", "YKM Lightweight Short"],
+      "optic": ["Default Scope", "Tactical Scope", "6x Tactical Scope 3"],
+      "stock": ["YKM Combat Stock", "OWC Skeleton Stock", "MIP Strike Stock"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["Stopping Power Reload", "Extended Mag A", "Fast Reload"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "YKM Combat Laser"]
+    }
+  },
+  {
+    "name": "Locus",
+    "slug": "locus",
+    "category": "sniper",
+    "stats": {
+      "s14-2025": {
+        "damage": 92,
+        "range": 88,
+        "fireRate": 22,
+        "accuracy": 85,
+        "mobility": 38,
+        "control": 42
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Light Suppressor", "Monolithic Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Marksman", "YKM Lightweight Short", "MIP Light Barrel (Short)"],
+      "optic": ["Default Scope", "Tactical Scope", "6x Tactical Scope 3"],
+      "stock": ["YKM Combat Stock", "OWC Skeleton Stock", "MIP Strike Stock"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["Stopping Power Reload", "Extended Mag A", "Fast Reload"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "YKM Combat Laser"]
+    }
+  },
+  {
+    "name": "Arctic .50",
+    "slug": "arctic-50",
+    "category": "sniper",
+    "stats": {
+      "s14-2025": {
+        "damage": 90,
+        "range": 86,
+        "fireRate": 25,
+        "accuracy": 80,
+        "mobility": 40,
+        "control": 38
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Light Suppressor", "Monolithic Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Marksman", "YKM Lightweight Short", "MIP Light Barrel (Short)"],
+      "optic": ["Default Scope", "Tactical Scope", "6x Tactical Scope 3"],
+      "stock": ["YKM Combat Stock", "OWC Skeleton Stock", "MIP Strike Stock"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["Stopping Power Reload", "Extended Mag A", "Fast Reload"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "YKM Combat Laser"]
+    }
+  },
+  {
+    "name": "XPR-50",
+    "slug": "xpr-50",
+    "category": "sniper",
+    "stats": {
+      "s14-2025": {
+        "damage": 88,
+        "range": 85,
+        "fireRate": 28,
+        "accuracy": 78,
+        "mobility": 42,
+        "control": 36
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Light Suppressor", "Monolithic Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Marksman", "YKM Lightweight Short", "MIP Light Barrel (Short)"],
+      "optic": ["Default Scope", "Tactical Scope", "6x Tactical Scope 3"],
+      "stock": ["YKM Combat Stock", "OWC Skeleton Stock", "MIP Strike Stock"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["Stopping Power Reload", "Extended Mag A", "Fast Reload"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "YKM Combat Laser"]
+    }
+  },
+  {
+    "name": "NA-45",
+    "slug": "na-45",
+    "category": "sniper",
+    "stats": {
+      "s14-2025": {
+        "damage": 89,
+        "range": 85,
+        "fireRate": 24,
+        "accuracy": 76,
+        "mobility": 38,
+        "control": 35
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Light Suppressor", "Monolithic Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Marksman", "YKM Lightweight Short", "MIP Light Barrel (Short)"],
+      "optic": ["Default Scope", "Tactical Scope", "6x Tactical Scope 3"],
+      "stock": ["YKM Combat Stock", "OWC Skeleton Stock", "MIP Strike Stock"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["Explosive Ammo", "Extended Mag A", "Fast Reload"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "YKM Combat Laser"]
+    }
+  },
+  {
+    "name": "Outlaw",
+    "slug": "outlaw",
+    "category": "sniper",
+    "stats": {
+      "s14-2025": {
+        "damage": 90,
+        "range": 86,
+        "fireRate": 23,
+        "accuracy": 84,
+        "mobility": 40,
+        "control": 44
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Light Suppressor", "Monolithic Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Marksman", "YKM Lightweight Short", "MIP Light Barrel (Short)"],
+      "optic": ["Default Scope", "Tactical Scope", "6x Tactical Scope 3"],
+      "stock": ["YKM Combat Stock", "OWC Skeleton Stock", "MIP Strike Stock"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["Stopping Power Reload", "Extended Mag A", "Fast Reload"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "YKM Combat Laser"]
+    }
+  },
+  {
+    "name": "Rytec AMR",
+    "slug": "rytec-amr",
+    "category": "sniper",
+    "stats": {
+      "s14-2025": {
+        "damage": 96,
+        "range": 92,
+        "fireRate": 18,
+        "accuracy": 80,
+        "mobility": 30,
+        "control": 34
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Light Suppressor", "Monolithic Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Marksman", "YKM Lightweight Short", "Rytec AMR Factory Barrel"],
+      "optic": ["Default Scope", "Tactical Scope", "6x Tactical Scope 3"],
+      "stock": ["YKM Combat Stock", "OWC Skeleton Stock", "MIP Strike Stock"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["Explosive Round", "Thermite Round", "Extended Mag A"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "YKM Combat Laser"]
+    }
+  },
+  {
+    "name": "HDR",
+    "slug": "hdr",
+    "category": "sniper",
+    "stats": {
+      "s14-2025": {
+        "damage": 98,
+        "range": 95,
+        "fireRate": 15,
+        "accuracy": 88,
+        "mobility": 30,
+        "control": 38
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Light Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["HDR Pro Barrel", "OWC Marksman", "YKM Lightweight Short"],
+      "optic": ["Default Scope", "Tactical Scope", "6x Tactical Scope 3", "Variable Zoom Scope"],
+      "stock": ["YKM Combat Stock", "OWC Skeleton Stock", "FTAC Stalker-Scout"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["Stopping Power Reload", "7 Round Extended Mag", "Fast Reload"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "YKM Combat Laser"]
+    }
+  },
+  {
+    "name": "ZRG 20mm",
+    "slug": "zrg-20mm",
+    "category": "sniper",
+    "stats": {
+      "s14-2025": {
+        "damage": 97,
+        "range": 94,
+        "fireRate": 16,
+        "accuracy": 86,
+        "mobility": 32,
+        "control": 36
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Agency Suppressor", "Monolithic Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["Combat Recon Barrel", "Task Force Barrel", "Reinforced Heavy Barrel"],
+      "optic": ["Default Scope", "Tactical Scope", "6x Tactical Scope 3", "Variable Zoom Scope"],
+      "stock": ["Marathon Stock", "Raider Stock", "SAS Combat Stock"],
+      "rear_grip": ["Airborne Elastic Wrap", "Stippled Grip Tape", "Serpent Wrap"],
+      "ammunition": ["5 Round Extended Mag", "Stopping Power Reload", "Fast Reload"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "YKM Combat Laser"]
+    }
+  },
+  {
+    "name": "RPD",
+    "slug": "rpd",
+    "category": "lmg",
+    "stats": {
+      "s14-2025": {
+        "damage": 72,
+        "range": 68,
+        "fireRate": 56,
+        "accuracy": 60,
+        "mobility": 40,
+        "control": 55
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Tactical Scope", "3x Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["200 Round Extended Mag", "OWC Stopping Power Reload", "Sleight of Hand"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Merc Foregrip", "Operator Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "UL736",
+    "slug": "ul736",
+    "category": "lmg",
+    "stats": {
+      "s14-2025": {
+        "damage": 68,
+        "range": 62,
+        "fireRate": 60,
+        "accuracy": 62,
+        "mobility": 42,
+        "control": 60
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Tactical Scope", "3x Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["120 Round Extended Mag", "Sleight of Hand", "FMJ Round"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Merc Foregrip", "Operator Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "S36",
+    "slug": "s36",
+    "category": "lmg",
+    "stats": {
+      "s14-2025": {
+        "damage": 70,
+        "range": 65,
+        "fireRate": 62,
+        "accuracy": 58,
+        "mobility": 38,
+        "control": 52
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Tactical Scope", "3x Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["150 Round Extended Mag", "Sleight of Hand", "FMJ Round"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Merc Foregrip", "Operator Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "M4LMG",
+    "slug": "m4lmg",
+    "category": "lmg",
+    "stats": {
+      "s14-2025": {
+        "damage": 65,
+        "range": 60,
+        "fireRate": 65,
+        "accuracy": 64,
+        "mobility": 44,
+        "control": 58
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Tactical Scope", "3x Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["120 Round Extended Mag", "Sleight of Hand", "FMJ Round"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Merc Foregrip", "Operator Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "Chopper",
+    "slug": "chopper",
+    "category": "lmg",
+    "stats": {
+      "s14-2025": {
+        "damage": 74,
+        "range": 66,
+        "fireRate": 58,
+        "accuracy": 52,
+        "mobility": 35,
+        "control": 48
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "Chopper Heavy Handle"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Tactical Scope", "3x Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["150 Round Extended Mag", "Sleight of Hand", "FMJ Round"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Merc Foregrip", "Operator Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "Holger 26",
+    "slug": "holger-26",
+    "category": "lmg",
+    "stats": {
+      "s14-2025": {
+        "damage": 65,
+        "range": 62,
+        "fireRate": 68,
+        "accuracy": 64,
+        "mobility": 50,
+        "control": 58
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["MIP Extended Light Barrel", "OWC Ranger", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Tactical Scope", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock", "MIP Strike Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["30 Round Light Mag", "MIP 100 Round Extended Mag", "Sleight of Hand"],
+      "underbarrel": ["Merc Foregrip", "Ranger Foregrip", "Operator Foregrip", "Strike Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "Hades",
+    "slug": "hades",
+    "category": "lmg",
+    "stats": {
+      "s14-2025": {
+        "damage": 66,
+        "range": 58,
+        "fireRate": 70,
+        "accuracy": 56,
+        "mobility": 46,
+        "control": 52
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Tactical Scope", "3x Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock", "Hades Crossbar"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["100 Round Extended Mag", "Sleight of Hand", "FMJ Round"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Merc Foregrip", "Operator Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "PKM",
+    "slug": "pkm",
+    "category": "lmg",
+    "stats": {
+      "s14-2025": {
+        "damage": 76,
+        "range": 70,
+        "fireRate": 52,
+        "accuracy": 58,
+        "mobility": 36,
+        "control": 50
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "Heavy Duty Barrel"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Tactical Scope", "3x Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["200 Round Extended Belt", "Sleight of Hand", "FMJ Round"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Merc Foregrip", "Operator Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "Dingo",
+    "slug": "dingo",
+    "category": "lmg",
+    "stats": {
+      "s14-2025": {
+        "damage": 68,
+        "range": 64,
+        "fireRate": 66,
+        "accuracy": 55,
+        "mobility": 42,
+        "control": 54
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Compensator", "Tactical Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "YKM Integral Suppressor Light"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Tactical Scope", "3x Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Granulated Grip Tape", "Stippled Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["120 Round Extended Mag", "Sleight of Hand", "FMJ Round"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Merc Foregrip", "Operator Foregrip"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "OWC Laser - Combat"]
+    }
+  },
+  {
+    "name": "BY15",
+    "slug": "by15",
+    "category": "shotgun",
+    "stats": {
+      "s14-2025": {
+        "damage": 88,
+        "range": 18,
+        "fireRate": 30,
+        "accuracy": 55,
+        "mobility": 72,
+        "control": 50
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Choke", "Marauder Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["MIP Extended Light Barrel", "OWC Marksman", "Sawed-off Barrel"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "YKM Combat Stock", "MIP Strike Stock"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "laser": ["MIP Laser 5mW", "OWC Laser - Tactical", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "HS0405",
+    "slug": "hs0405",
+    "category": "shotgun",
+    "stats": {
+      "s14-2025": {
+        "damage": 95,
+        "range": 14,
+        "fireRate": 22,
+        "accuracy": 48,
+        "mobility": 68,
+        "control": 44
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Choke", "Marauder Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["MIP Extended Light Barrel", "OWC Marksman", "Sawed-off Barrel"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "YKM Combat Stock", "MIP Strike Stock"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "laser": ["MIP Laser 5mW", "OWC Laser - Tactical", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "Striker",
+    "slug": "striker",
+    "category": "shotgun",
+    "stats": {
+      "s14-2025": {
+        "damage": 82,
+        "range": 16,
+        "fireRate": 52,
+        "accuracy": 50,
+        "mobility": 70,
+        "control": 46
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Choke", "Marauder Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["MIP Extended Light Barrel", "OWC Marksman", "Sawed-off Barrel"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "YKM Combat Stock", "MIP Strike Stock"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "laser": ["MIP Laser 5mW", "OWC Laser - Tactical", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "Echo",
+    "slug": "echo",
+    "category": "shotgun",
+    "stats": {
+      "s14-2025": {
+        "damage": 84,
+        "range": 15,
+        "fireRate": 48,
+        "accuracy": 45,
+        "mobility": 66,
+        "control": 42
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Choke", "Marauder Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["MIP Extended Light Barrel", "OWC Marksman", "Sawed-off Barrel"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "YKM Combat Stock", "MIP Strike Stock"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["12 Round Extended Mag", "Fast Reload", "Slug Round"],
+      "laser": ["MIP Laser 5mW", "OWC Laser - Tactical", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "KRM-262",
+    "slug": "krm-262",
+    "category": "shotgun",
+    "stats": {
+      "s14-2025": {
+        "damage": 92,
+        "range": 15,
+        "fireRate": 25,
+        "accuracy": 52,
+        "mobility": 75,
+        "control": 48
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Choke", "Marauder Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["MIP Extended Light Barrel", "OWC Marksman", "Sawed-off Barrel"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "YKM Combat Stock", "MIP Strike Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "laser": ["MIP Laser 5mW", "OWC Laser - Tactical", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "R9-0",
+    "slug": "r9-0",
+    "category": "shotgun",
+    "stats": {
+      "s14-2025": {
+        "damage": 86,
+        "range": 14,
+        "fireRate": 55,
+        "accuracy": 46,
+        "mobility": 68,
+        "control": 40
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Choke", "Marauder Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["MIP Extended Light Barrel", "OWC Marksman", "Sawed-off Barrel"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "YKM Combat Stock", "MIP Strike Stock"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["16 Round Extended Mag", "Fast Reload", "Dragon's Breath Round"],
+      "laser": ["MIP Laser 5mW", "OWC Laser - Tactical", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "JAK-12",
+    "slug": "jak-12",
+    "category": "shotgun",
+    "stats": {
+      "s14-2025": {
+        "damage": 83,
+        "range": 12,
+        "fireRate": 60,
+        "accuracy": 42,
+        "mobility": 65,
+        "control": 38
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Choke", "Marauder Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["MIP Extended Light Barrel", "OWC Marksman", "Sawed-off Barrel"],
+      "optic": ["Red Dot Sight 1", "Holographic Sight 1", "Classic Red Dot Sight"],
+      "stock": ["No Stock", "YKM Combat Stock", "MIP Strike Stock"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["20 Round Drum Mag", "32 Round Drum Mag", "Dragon's Breath Round"],
+      "laser": ["MIP Laser 5mW", "OWC Laser - Tactical", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "J358",
+    "slug": "j358",
+    "category": "pistol",
+    "stats": {
+      "s14-2025": {
+        "damage": 65,
+        "range": 28,
+        "fireRate": 35,
+        "accuracy": 62,
+        "mobility": 90,
+        "control": 55
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Light Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Red Dot Sight 1", "Classic Red Dot Sight", "Holographic Sight 1"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["Stopping Power Reload", "Extended Mag A", "Fast Reload"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "MW11",
+    "slug": "mw11",
+    "category": "pistol",
+    "stats": {
+      "s14-2025": {
+        "damage": 45,
+        "range": 22,
+        "fireRate": 55,
+        "accuracy": 58,
+        "mobility": 92,
+        "control": 60
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Light Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Red Dot Sight 1", "Classic Red Dot Sight", "Holographic Sight 1"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["20 Round Extended Mag", "Akimbo", "Fast Reload"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": ".50 GS",
+    "slug": "50-gs",
+    "category": "pistol",
+    "stats": {
+      "s14-2025": {
+        "damage": 62,
+        "range": 30,
+        "fireRate": 30,
+        "accuracy": 55,
+        "mobility": 88,
+        "control": 48
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Light Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Red Dot Sight 1", "Classic Red Dot Sight", "Holographic Sight 1"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["Stopping Power Reload", "Extended Mag A", "Akimbo"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "Renetti",
+    "slug": "renetti",
+    "category": "pistol",
+    "stats": {
+      "s14-2025": {
+        "damage": 48,
+        "range": 24,
+        "fireRate": 60,
+        "accuracy": 56,
+        "mobility": 90,
+        "control": 52
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Light Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Red Dot Sight 1", "Classic Red Dot Sight", "Holographic Sight 1"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["21 Round Extended Mag", "Burst Mod", "Akimbo"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "Shorty",
+    "slug": "shorty",
+    "category": "pistol",
+    "stats": {
+      "s14-2025": {
+        "damage": 58,
+        "range": 15,
+        "fireRate": 28,
+        "accuracy": 42,
+        "mobility": 92,
+        "control": 44
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "rear_grip", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Choke", "Marauder Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["MIP Extended Light Barrel", "Sawed-off Barrel", "OWC Marksman"],
+      "optic": ["Red Dot Sight 1", "Classic Red Dot Sight", "Holographic Sight 1"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "laser": ["MIP Laser 5mW", "OWC Laser - Tactical", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "Crossbow",
+    "slug": "crossbow",
+    "category": "pistol",
+    "stats": {
+      "s14-2025": {
+        "damage": 55,
+        "range": 20,
+        "fireRate": 18,
+        "accuracy": 50,
+        "mobility": 85,
+        "control": 40
+      }
+    },
+    "attachmentSlots": ["optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "optic": ["Red Dot Sight 1", "Classic Red Dot Sight", "Holographic Sight 1", "Tactical Scope"],
+      "stock": ["No Stock", "YKM Combat Stock", "OWC Skeleton Stock"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["Explosive Bolt", "Gas Bolt", "Nova Bolt"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "L-CAR 9",
+    "slug": "l-car-9",
+    "category": "pistol",
+    "stats": {
+      "s14-2025": {
+        "damage": 40,
+        "range": 20,
+        "fireRate": 68,
+        "accuracy": 52,
+        "mobility": 94,
+        "control": 50
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["Monolithic Suppressor", "OWC Light Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Ranger", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Red Dot Sight 1", "Classic Red Dot Sight", "Holographic Sight 1"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["Extended Mag A", "Fast Reload", "Akimbo"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "Steady Aim Laser"]
+    }
+  },
+  {
+    "name": "SKS",
+    "slug": "sks",
+    "category": "marksman",
+    "stats": {
+      "s14-2025": {
+        "damage": 78,
+        "range": 72,
+        "fireRate": 45,
+        "accuracy": 70,
+        "mobility": 55,
+        "control": 50
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel"],
+    "availableAttachments": {
+      "muzzle": ["OWC Light Suppressor", "Monolithic Suppressor", "MIP Light Flash Guard", "OWC Compensator"],
+      "barrel": ["OWC Marksman", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Tactical Scope", "Red Dot Sight 1", "3x Tactical Scope", "6x Tactical Scope 3"],
+      "stock": ["OWC Skeleton Stock", "YKM Combat Stock", "MIP Strike Stock"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["20 Round Extended Mag", "30 Round Extended Mag", "Stopping Power Reload"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Merc Foregrip", "Operator Foregrip"]
+    }
+  },
+  {
+    "name": "SP-R 208",
+    "slug": "sp-r-208",
+    "category": "marksman",
+    "stats": {
+      "s14-2025": {
+        "damage": 82,
+        "range": 76,
+        "fireRate": 38,
+        "accuracy": 74,
+        "mobility": 52,
+        "control": 48
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Light Suppressor", "Monolithic Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Marksman", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Tactical Scope", "Red Dot Sight 1", "3x Tactical Scope", "6x Tactical Scope 3"],
+      "stock": ["OWC Skeleton Stock", "YKM Combat Stock", "MIP Strike Stock"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": [".338 Lapua Mag", "10 Round Extended Mag", "Stopping Power Reload"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "YKM Combat Laser"]
+    }
+  },
+  {
+    "name": "MK2",
+    "slug": "mk2",
+    "category": "marksman",
+    "stats": {
+      "s14-2025": {
+        "damage": 80,
+        "range": 70,
+        "fireRate": 42,
+        "accuracy": 68,
+        "mobility": 58,
+        "control": 46
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "laser"],
+    "availableAttachments": {
+      "muzzle": ["OWC Light Suppressor", "Monolithic Suppressor", "MIP Light Flash Guard"],
+      "barrel": ["OWC Marksman", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Tactical Scope", "Red Dot Sight 1", "3x Tactical Scope", "6x Tactical Scope 3"],
+      "stock": ["OWC Skeleton Stock", "YKM Combat Stock", "MIP Strike Stock"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["Stopping Power Reload", "Extended Mag A", "Fast Reload"],
+      "laser": ["OWC Laser - Tactical", "MIP Laser 5mW", "YKM Combat Laser"]
+    }
+  },
+  {
+    "name": "SVD",
+    "slug": "svd",
+    "category": "marksman",
+    "stats": {
+      "s14-2025": {
+        "damage": 82,
+        "range": 75,
+        "fireRate": 40,
+        "accuracy": 68,
+        "mobility": 48,
+        "control": 46
+      }
+    },
+    "attachmentSlots": ["muzzle", "barrel", "optic", "stock", "rear_grip", "ammunition", "underbarrel"],
+    "availableAttachments": {
+      "muzzle": ["OWC Light Suppressor", "Monolithic Suppressor", "MIP Light Flash Guard", "OWC Compensator"],
+      "barrel": ["OWC Marksman", "MIP Extended Light Barrel", "MIP Light Barrel (Short)"],
+      "optic": ["Tactical Scope", "Red Dot Sight 1", "3x Tactical Scope", "6x Tactical Scope 3"],
+      "stock": ["OWC Skeleton Stock", "YKM Combat Stock", "MIP Strike Stock"],
+      "rear_grip": ["Stippled Grip Tape", "Granulated Grip Tape", "Rubberized Grip Tape"],
+      "ammunition": ["15 Round Extended Mag", "20 Round Extended Mag", "Stopping Power Reload"],
+      "underbarrel": ["Strike Foregrip", "Ranger Foregrip", "Merc Foregrip", "Operator Foregrip"]
+    }
+  }
+]

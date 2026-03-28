@@ -8,7 +8,12 @@
  * @module
  */
 
-import type * as messages from "../messages.js";
+import type * as loadouts from "../loadouts.js";
+import type * as seasons from "../seasons.js";
+import type * as seed from "../seed.js";
+import type * as votes from "../votes.js";
+import type * as weaponRequests from "../weaponRequests.js";
+import type * as weapons from "../weapons.js";
 
 import type {
   ApiFromModules,
@@ -17,7 +22,12 @@ import type {
 } from "convex/server";
 
 declare const fullApi: ApiFromModules<{
-  messages: typeof messages;
+  loadouts: typeof loadouts;
+  seasons: typeof seasons;
+  seed: typeof seed;
+  votes: typeof votes;
+  weaponRequests: typeof weaponRequests;
+  weapons: typeof weapons;
 }>;
 
 /**
