@@ -17,6 +17,10 @@ async function seed() {
 
   console.log("Seeded season: s14-2025");
 
+  // Clear existing weapons to allow re-seeding with updated data
+  const cleared = await client.mutation(api.seed.clearWeapons, {});
+  console.log(`Cleared ${cleared.deleted} existing weapons`);
+
   // Seed weapons (cast to satisfy TypeScript record types)
   for (const weapon of weaponsData) {
     const result = await client.mutation(api.seed.seedWeapon, {

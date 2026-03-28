@@ -39,6 +39,17 @@ export const seedWeapon = mutation({
   },
 });
 
+export const clearWeapons = mutation({
+  args: {},
+  handler: async (ctx) => {
+    const weapons = await ctx.db.query("weapons").collect();
+    for (const w of weapons) {
+      await ctx.db.delete(w._id);
+    }
+    return { deleted: weapons.length };
+  },
+});
+
 export const seedSeason = mutation({
   args: {
     name: v.string(),
