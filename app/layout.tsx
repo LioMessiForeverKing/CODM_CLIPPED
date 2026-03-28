@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Barlow_Condensed, Inter, JetBrains_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import { ConvexClientProvider } from "@/lib/providers";
 import "./globals.css";
 
@@ -42,6 +43,7 @@ export default function RootLayout({
     >
       <body className="bg-bg text-white font-body antialiased min-h-screen">
         <ConvexClientProvider>{children}</ConvexClientProvider>
+        <Analytics />
       </body>
     </html>
   );
