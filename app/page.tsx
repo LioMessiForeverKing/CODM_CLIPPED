@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useQuery } from "convex/react";
+import { useQuery, usePaginatedQuery } from "convex/react";
 import { api } from "@/convex/_generated/api";
 import { Nav } from "@/components/app/Nav";
 import { HeroSection } from "@/components/app/HeroSection";
@@ -19,18 +19,21 @@ export default function Home() {
   const [playstyle, setPlaystyle] = useState<Playstyle | null>(null);
   const [sort, setSort] = useState<"top" | "newest">("top");
 
-  const loadoutsResult = useQuery(api.loadouts.list, {
-    season: CURRENT_SEASON_SLUG,
-    category: category ?? undefined,
-    playstyle: playstyle ?? undefined,
-    sort,
-    paginationOpts: { numItems: 12, cursor: null },
-  });
+  const { results: loadouts, status, loadMore } = usePaginatedQuery(
+    api.loadouts.list,
+    {
+      season: CURRENT_SEASON_SLUG,
+      category: category ?? undefined,
+      playstyle: playstyle ?? undefined,
+      sort,
+    },
+    { initialNumItems: 12 }
+  );
 
   const weapons = useQuery(api.weapons.getAll, {});
 
   // Get top weapon from the first loadout result
-  const topLoadout = loadoutsResult?.page?.[0];
+  const topLoadout = loadouts?.[0];
   const topWeaponName = topLoadout?.weaponName ?? null;
   const topWeapon = weapons?.find((w) => w.name === topWeaponName);
   const topWeaponStats = topWeapon?.stats?.[CURRENT_SEASON_SLUG] ?? null;
@@ -42,8 +45,7 @@ export default function Home() {
     if (stats) weaponStatsMap.set(w.name, stats);
   });
 
-  const loadouts = loadoutsResult?.page ?? [];
-  const isLoading = loadoutsResult === undefined;
+  const isLoading = status === "LoadingFirstPage";
 
   return (
     <>
@@ -104,11 +106,21 @@ export default function Home() {
                 />
               ))}
             </div>
-            {loadoutsResult?.continueCursor && (
+            {status === "CanLoadMore" && (
               <div className="text-center mt-8">
-                <button className="text-muted hover:text-white border border-border hover:border-muted px-6 py-2.5 font-display text-sm uppercase tracking-wider rounded-sm transition-colors">
+                <button
+                  onClick={() => loadMore(12)}
+                  className="text-muted hover:text-white border border-border hover:border-muted px-6 py-2.5 font-display text-sm uppercase tracking-wider rounded-sm transition-colors"
+                >
                   Load More Loadouts
                 </button>
+              </div>
+            )}
+            {status === "LoadingMore" && (
+              <div className="text-center mt-8">
+                <span className="text-muted font-display text-sm uppercase tracking-wider">
+                  Loading...
+                </span>
               </div>
             )}
           </>
