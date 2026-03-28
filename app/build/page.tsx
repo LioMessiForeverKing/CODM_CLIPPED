@@ -169,43 +169,74 @@ export default function BuildPage() {
               <button onClick={goBack} className="text-muted text-sm mb-4 hover:text-white">
                 &larr; Back
               </button>
-              <div className="text-center mb-6">
-                <h2 className="font-display text-2xl font-bold uppercase tracking-wider">
-                  {selectedWeapon.name}
-                </h2>
-                <p className="text-muted text-xs mt-1">
-                  {selectedWeapon.category.replace("_", " ")} · {selectedWeapon.attachmentSlots.length} attachment slots
-                </p>
-              </div>
-              <div className="space-y-4">
-                {selectedWeapon.attachmentSlots.map((slot) => {
-                  const options = selectedWeapon.availableAttachments[slot] ?? [];
-                  return (
-                    <div key={slot} className="flex items-center gap-3">
-                      <label className="w-24 text-right text-[11px] uppercase tracking-wider text-muted shrink-0">
-                        {slot.replace("_", " ")}
-                      </label>
-                      <select
-                        value={attachments[slot] ?? ""}
-                        onChange={(e) =>
-                          setAttachments((prev) => ({
-                            ...prev,
-                            [slot]: e.target.value,
-                          }))
-                        }
-                        className="flex-1 bg-surface-2 border border-border text-white px-3 py-2.5 text-sm rounded-sm focus:border-accent outline-none"
-                      >
-                        <option value="">Select {slot.replace("_", " ")}</option>
-                        {options.map((opt) => (
-                          <option key={opt} value={opt}>
-                            {opt}
-                          </option>
+              {(() => {
+                const filledCount = Object.values(attachments).filter(Boolean).length;
+                const maxAttachments = 5;
+                const atLimit = filledCount >= maxAttachments;
+
+                return (
+                  <>
+                    <div className="text-center mb-6">
+                      <h2 className="font-display text-2xl font-bold uppercase tracking-wider">
+                        {selectedWeapon.name}
+                      </h2>
+                      <p className="text-muted text-xs mt-1">
+                        {selectedWeapon.category.replace("_", " ")} · Choose {maxAttachments} of {selectedWeapon.attachmentSlots.length} slots
+                      </p>
+                      <div className="flex justify-center gap-1 mt-3">
+                        {Array.from({ length: maxAttachments }).map((_, i) => (
+                          <div
+                            key={i}
+                            className={`w-2 h-2 rounded-full ${i < filledCount ? "bg-accent" : "bg-border"}`}
+                          />
                         ))}
-                      </select>
+                        <span className="text-muted text-[10px] ml-2 font-data">
+                          {filledCount}/{maxAttachments}
+                        </span>
+                      </div>
                     </div>
-                  );
-                })}
-              </div>
+                    <div className="space-y-4">
+                      {selectedWeapon.attachmentSlots.map((slot) => {
+                        const options = selectedWeapon.availableAttachments[slot] ?? [];
+                        const hasValue = !!attachments[slot];
+                        const isDisabled = !hasValue && atLimit;
+
+                        return (
+                          <div key={slot} className={`flex items-center gap-3 ${isDisabled ? "opacity-40" : ""}`}>
+                            <label className="w-24 text-right text-[11px] uppercase tracking-wider text-muted shrink-0">
+                              {slot.replace("_", " ")}
+                            </label>
+                            <select
+                              value={attachments[slot] ?? ""}
+                              disabled={isDisabled}
+                              onChange={(e) => {
+                                const val = e.target.value;
+                                setAttachments((prev) => {
+                                  const next = { ...prev };
+                                  if (val) {
+                                    next[slot] = val;
+                                  } else {
+                                    delete next[slot];
+                                  }
+                                  return next;
+                                });
+                              }}
+                              className="flex-1 bg-surface-2 border border-border text-white px-3 py-2.5 text-sm rounded-sm focus:border-accent outline-none disabled:cursor-not-allowed"
+                            >
+                              <option value="">{isDisabled ? "Limit reached (5/5)" : `Select ${slot.replace("_", " ")}`}</option>
+                              {options.map((opt) => (
+                                <option key={opt} value={opt}>
+                                  {opt}
+                                </option>
+                              ))}
+                            </select>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </>
+                );
+              })()}
               {!selectedWeapon.attachmentModifiers && (
                 <p className="text-muted text-xs text-center mt-4">
                   Stat modifiers not yet available for this weapon.
